@@ -14,7 +14,7 @@ export default function Home() {
 
     useEffect(() => {
         if (window && typeof window !== "undefined") {
-            setQuery(window.location.href.split('=')[1].replaceAll('%20', ' '))
+            setQuery(window.location.href.split('=')[1].replaceAll('%20', ' ').replaceAll('%22', ''))
         }
         if (trackingDB && trackingDB[query] && trackingDB[query].carreras) {
             setData2({ ...trackingDB[query].carreras, ...data2 })
