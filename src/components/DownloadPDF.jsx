@@ -288,7 +288,7 @@ const PDFView = ({ click }) => {
                                                                 {item[`ic`]}
                                                             </Text>
                                                             <Text style={{ width: '33%', ...styles.textLight }}>
-                                                                {data2[`item${index}`].mañana && 'Mañana'}{data2[`item${index}`].tarde && 'Tarde'}{data2[`item${index}`].tarde && <Br />}{data2[`item${index}`].noche && 'Noche'}
+                                                                {data2[`item${index}`].mañana && 'Mañana \n'}{data2[`item${index}`].tarde && 'Tarde \n'}{data2[`item${index}`].noche && 'Noche'}
                                                             </Text>
                                                             <Text style={{ width: '33%', ...styles.textLight }}>
                                                                 {item[`re`]}
