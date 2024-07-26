@@ -154,7 +154,7 @@ const styles = StyleSheet.create({
 const PDFView = ({ click }) => {
     // const { pdfData, setUserPdfData, calcValueFCL, setCalcValueFCL, naviera, calcValue, setCalcValue, element, setElement, cliente } = useUser()
 
-    const { setUserSuccess, success, trackingDB, queryDB, cliente, dataUrl, setDataUrl, } = useUser()
+    const { setUserSuccess, success, trackingDB, queryDB, cliente, query, dataUrl, setDataUrl, } = useUser()
     const [data2, setData2] = useState({})
 
     const [isCliente, setisCliente] = useState(false);
@@ -169,7 +169,6 @@ const PDFView = ({ click }) => {
     // }, [cliente, query, trackingDB])
 
 
-    let query = 'Don Bosco'
 
 
     console.log(data2)
