@@ -228,10 +228,10 @@ export default function Home() {
 
 
             <div className='relative flex justify-center' >
-                <button type="button" class={` shadow-2xl  ${filter2 === 'PUBLICA' ? 'bg-gradient-to-br text-white from-purple-600 to-blue-500 hover:bg-gradient-to-bl ' : 'border border-[#c6c6c6] text-black '} focus:outline-none font-medium rounded-lg text-[16px] px-5 py-2.5 text-center me-2 mb-2`} onClick={() => filter2 === 'PUBLICA' ? setFilter2('') : setFilter2('PUBLICA')}>
+                <button type="button" class={` shadow-2xl  ${filter2 === 'FISCAL' ? 'bg-gradient-to-br text-white from-purple-600 to-blue-500 hover:bg-gradient-to-bl ' : 'border border-[#c6c6c6] text-black '} focus:outline-none font-medium rounded-lg text-[16px] px-5 py-2.5 text-center me-2 mb-2`} onClick={() => filter2 === 'FISCAL' ? setFilter2('') : setFilter2('FISCAL')}>
                     INSTITUTOS PÚBLICOS
                 </button>
-                <button type="button" class={`shadow-2xl ${filter2 === 'PRIVADA' ? 'bg-gradient-to-br text-white  from-purple-600 to-blue-500 hover:bg-gradient-to-bl' : 'border border-[#c6c6c6] text-black '}  focus:outline-none font-medium rounded-lg text-[16px] px-5 py-2.5 text-center me-2 mb-2`} onClick={() => filter2 === 'PRIVADA' ? setFilter2('') : setFilter2('PRIVADA')}>
+                <button type="button" class={`shadow-2xl ${filter2 === 'PRIVADO' ? 'bg-gradient-to-br text-white  from-purple-600 to-blue-500 hover:bg-gradient-to-bl' : 'border border-[#c6c6c6] text-black '}  focus:outline-none font-medium rounded-lg text-[16px] px-5 py-2.5 text-center me-2 mb-2`} onClick={() => filter2 === 'PRIVADO' ? setFilter2('') : setFilter2('PRIVADO')}>
                     INSTITUTOS PRIVADOS
                 </button>
             </div>
