@@ -138,7 +138,7 @@ export default function Home() {
                                                     {item[`ic`]}
                                                 </td>
                                                 <td class="px-6 py-4">
-                                                    {data2[`item${index}`].mañana && 'Mañana'} <br />  {data2[`item${index}`].tarde && 'Tarde'} {data2[`item${index}`].tarde && <br />}  {data2[`item${index}`].noche && 'Noche'}
+                                                    {data2[`item${index}`].mañana && <div>Mañana</div> }  {data2[`item${index}`].tarde && <div>Tarde</div>}  {data2[`item${index}`].noche && <div>Noche</div>}
                                                 </td>
                                                 <td class="px-6 py-4">
                                                     {item[`re`]}
